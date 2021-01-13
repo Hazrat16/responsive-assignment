@@ -8,10 +8,7 @@
     display: grid;
     grid-gap: 20px 0;
 }
-.service-section{
-    height: 472px;
-    width: 1140px;
-}
+
 .grid-col{
     display: flex;
     border-radius: 10px;
@@ -43,6 +40,7 @@
 .btn-buy{
     background-color: darkblue!important;
     color: white;
+    border: none;
 }
 .card-foot{
     display: flex;

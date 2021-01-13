@@ -1,0 +1,50 @@
+.container{
+    margin-bottom: 100px;
+}
+.introduction-section{
+    background-color:  #FFFFF4;
+}
+.service-grid{
+    display: grid;
+    grid-gap: 20px 0;
+}
+.service-section{
+    height: 472px;
+    width: 1140px;
+}
+.grid-col{
+    display: flex;
+    border-radius: 10px;
+    background-color: #FFFFF4;
+}
+.grid-col img{
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.service-large img{
+    width: 100%;
+    padding-left: 10px;
+}
+.service-large{
+    background-color: #FFFFF4;
+}
+.casual-bagpack{
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-img-top{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.casual-bagpack img{
+    width: 100%;
+}
+.btn-buy{
+    background-color: darkblue!important;
+    color: white;
+}
+.card-foot{
+    display: flex;
+    justify-content: space-between;
+}

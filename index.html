@@ -15,7 +15,7 @@
 <body>
     <header class="container">
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand " href="#"><span class="bagpack-brand">BagPack</span><span class="bagpack-brand2">
+            <a class="navbar-brand " href=""><span class="bagpack-brand">BagPack</span><span class="bagpack-brand2">
                     World</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,16 +24,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link" href="#product">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#service">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Contact us</a>
+                        <a class="nav-link " href="#footer">Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +57,7 @@
 
     </header>
     <main>
-        <section class="service-section container mt-5 service-web">
+        <section class="service-section container mt-5 service-web flex-sm-row-reverse" id="service">
             <div class="row align-items-center justify-content-center p-5">
                 <div class="col-md-5 g-5">
                     <div class="service-grid">
@@ -109,8 +109,8 @@
             </div>
         </section>
 
-        <section class="container  mt-5">
-            <h3>Casual backpack</h3>
+        <section class="container  mt-5" id="product">
+            <h3>CASUAL BACKPACK</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100 casual-bagpack">
@@ -158,7 +158,7 @@
         </section>
 
         <section class="container  mt-5">
-            <h3>Travel backpack</h3>
+            <h3>TRAVEL BACKPACK</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100 casual-bagpack">
@@ -205,7 +205,7 @@
             </div>
         </section>
         <section class="service-section container mt-5 service-mobile">
-            <div class="row align-items-center justify-content-center p-5">
+            <div class="row align-items-center justify-content-center p-5 ">
                 <div class="col-md-5 g-5">
                     <div class="service-grid">
                         <div class="grid-col">
@@ -257,16 +257,16 @@
         </section>
 
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer" id="footer">
         <section class="container mt-5">
             <div class="row g-2">
                 <div class="col-4 ">
                     <h3>Explore</h3>
                     <ul class="footer-col">
-                        <a href="#">Home</a>
-                        <a href="#">Product</a>
-                        <a href="#">About</a>
-                        <a href="#">Contact</a>
+                        <a href="">Home</a>
+                        <a href="product">Product</a>
+                        <a href="service">About</a>
+                        <a href="footer">Contact</a>
                     </ul>
                 </div>
                 <div class="col-4 ">

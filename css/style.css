@@ -1,12 +1,18 @@
 .container{
     margin-bottom: 100px;
 }
+.bagpack-brand{
+    color: #76C27E;
+}
+.bagpack-brand2{
+    color: #363958;
+}
 .introduction-section{
-    background-color:  #FFFFF4;
+    background-color:  white;
 }
 .service-grid{
     display: grid;
-    grid-gap: 20px 0;
+    grid-gap: 20px 10px;
 }
 
 .grid-col{
@@ -21,7 +27,6 @@
 }
 .service-large img{
     width: 100%;
-    padding-left: 10px;
 }
 .service-large{
     background-color: #FFFFF4;
@@ -29,6 +34,7 @@
 .casual-bagpack{
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 3px 3px 5px 1px #ccc;
 }
 .card-img-top{
     background-color: lightgray;
@@ -38,11 +44,57 @@
     width: 100%;
 }
 .btn-buy{
-    background-color: darkblue!important;
+    background-color: #2A1E59!important;
     color: white;
     border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 11px;
+}
+.btn-send{
+    background-color: #09dbca!important;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    padding-top: 5px;
 }
 .card-foot{
     display: flex;
     justify-content: space-between;
+}
+.card-foot h2{
+    color: #76C27E;
+}
+
+@media (max-width: 992px){
+    .service-web{
+        display: none;
+    }
+}
+@media (min-width: 576px){
+    .service-mobile{
+        display: none;
+    }
+}
+.footer-col a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.footer-col li{
+    list-style-type: none;
+}
+.copyrights{
+    text-align: center;
+}
+.main-footer{
+    padding-top: 10px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+.contact-mail{
+    display: flex;
 }

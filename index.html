@@ -6,49 +6,205 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BagPack World</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                    <div class="navbar-nav ">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand " href="#"><span class="bagpack-brand">BagPack</span><span class="bagpack-brand2">
+                    World</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">About us</a>
-                        <a class="nav-link" href="#">Contact us</a>
-                    </div>
-                </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Contact us</a>
+                    </li>
+                </ul>
             </div>
         </nav>
+
         <section class="introduction-section mt-5">
             <div class="row align-items-center justify-content-center p-5">
                 <div class="col-md-5">
-                    <h1>BACKPACK</h1>
-                    <h1>MOON</h1>
+                    <h1 class="bagpack-brand2">BACKPACK</h1>
+                    <h1 class="bagpack-brand">WORLD</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry
                     <p>
                     <h3>$1200</h3>
-                    <div class="btn btn-warning btn-buy">Buy Now</div>
+                    <div class="btn btn-primary btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
                 </div>
                 <div class="col-md-7">
-                    <img src="images/image 16.png" class="d-block w-100" alt="...">
+                    <img src="images/top.png" class="d-block w-100" alt="...">
                 </div>
             </div>
         </section>
 
     </header>
     <main>
-        <section class="service-section container mt-5">
+        <section class="service-section container mt-5 service-web">
+            <div class="row align-items-center justify-content-center p-5">
+                <div class="col-md-5 g-5">
+                    <div class="service-grid">
+                        <div class="grid-col">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/Logo/image 12.png" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div>
+                                        <h5>Find the Perfect Fit</h5>
+                                        <p>Everybody is different, which is why we offer styles for every body.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-col">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/Logo/image 13.png" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div>
+                                        <h5>Free Exchanges</h5>
+                                        <p>One of the many reasons you can shop with peace of mind.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid-col">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/Logo/image 14.png" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div>
+                                        <h5>Find the Perfect Fit</h5>
+                                        <p>Everybody is different, which is why we offer styles for every body.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 service-large gx-5">
+                    <img src="images/Logo/XMLID 1.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="container  mt-5">
+            <h3>Casual backpack</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 casual-bagpack">
+                        <img src="images/pngwing 1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Sportswear Hayward </h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                        </div>
+                        <div class="card-foot">
+                            <h2>$234</h2>
+                            <div class="btn btn-primary btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 casual-bagpack">
+                        <img src="images/image 4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Sportswear Hayward </h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                        </div>
+                        <div class="card-foot">
+                            <h2>$234</h2>
+                            <div class="btn btn-primary btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 casual-bagpack">
+                        <img src="images/image 16.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Sportswear Hayward </h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                        </div>
+                        <div class="card-foot">
+                            <h2>$234</h2>
+                            <div class="btn btn-primary btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container  mt-5">
+            <h3>Travel backpack</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 casual-bagpack">
+                        <img src="images/pngwing 4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Sportswear Hayward </h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                        </div>
+                        <div class="card-foot">
+                            <h2>$234</h2>
+                            <div class="btn  btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 casual-bagpack">
+                        <img src="images/pngwing 2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Sportswear Hayward </h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                        </div>
+                        <div class="card-foot">
+                            <h2>$234</h2>
+                            <div class="btn btn-primary btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 casual-bagpack">
+                        <img src="images/pngwing 3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Sportswear Hayward </h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                        </div>
+                        <div class="card-foot">
+                            <h2>$234</h2>
+                            <div class="btn btn-primary btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service-section container mt-5 service-mobile">
             <div class="row align-items-center justify-content-center p-5">
                 <div class="col-md-5 g-5">
                     <div class="service-grid">
@@ -98,112 +254,52 @@
                     <img src="images/Logo/XMLID 1.png" alt="">
                 </div>
             </div>
-        </section> 
-
-        <section class="container  mt-5">
-            <h3>Casual backpack</h3>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100 casual-bagpack">
-                        <img src="images/pngwing 1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Nike Sportswear Hayward </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.</p>
-                        </div>
-                        <div class="card-foot">
-                            <h2>$234</h2>
-                            <div class="btn btn-warning btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 casual-bagpack">
-                        <img src="images/pngwing 1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Nike Sportswear Hayward </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.</p>
-                        </div>
-                        <div class="card-foot">
-                            <h2>$234</h2>
-                            <div class="btn btn-warning btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 casual-bagpack">
-                        <img src="images/pngwing 1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Nike Sportswear Hayward </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.</p>
-                        </div>
-                        <div class="card-foot">
-                            <h2>$234</h2>
-                            <div class="btn btn-warning btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
-
-        <section class="container  mt-5">
-            <h3>HDBAHBE shebd</h3>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100 casual-bagpack">
-                        <img src="images/pngwing 1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Nike Sportswear Hayward </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.</p>
-                        </div>
-                        <div class="card-foot">
-                            <h2>$234</h2>
-                            <div class="btn btn-warning btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 casual-bagpack">
-                        <img src="images/pngwing 1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Nike Sportswear Hayward </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.</p>
-                        </div>
-                        <div class="card-foot">
-                            <h2>$234</h2>
-                            <div class="btn btn-warning btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 casual-bagpack">
-                        <img src="images/pngwing 1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Nike Sportswear Hayward </h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.</p>
-                        </div>
-                        <div class="card-foot">
-                            <h2>$234</h2>
-                            <div class="btn btn-warning btn-buy"><i class="fas fa-shopping-cart"></i>Buy Now</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
 
     </main>
-    <footer class="mt-5">
+    <footer class="main-footer">
+        <section class="container mt-5">
+            <div class="row g-2">
+                <div class="col-4 ">
+                    <h3>Explore</h3>
+                    <ul class="footer-col">
+                        <a href="#">Home</a>
+                        <a href="#">Product</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                    </ul>
+                </div>
+                <div class="col-4 ">
+                    <h3>We are BagPack</h3>
+                    <ul class="footer-col">
+                        <li><i class="fas fa-map-marker"></i> Mohakhali WirelessGate, Dhaka 1212</li>
+                        <li><i class="far fa-envelope"></i> Official:bagpack@gmail.com</li>
+                        <li><i class="fab fa-facebook-square"></i> facebook.com/BagPack</li>
+                    </ul>
+                </div>
 
+                <div class="col-4 ">
+                    <h3>Contact us</h3>
+                    <div class="contact-mail">
+                        <input type="text" placeholder="Your Feedback">
+                        <button type="submit" class="btn-send">SEND</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="copyrights mt-5">
+            <p>Copyright © 2021 bagpack@gmail.com</p>
+        </div>
     </footer>
 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 
-    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
